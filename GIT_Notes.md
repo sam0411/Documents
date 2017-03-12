@@ -10,6 +10,7 @@ git push -u origin master
 ## git setup
 git config --global user.name "sam0411"
 git config --global user.email "sam0411@yeah.net"
+git config --global push.default matching
 git config --global color.ui true
 git init
 
