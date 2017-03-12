@@ -1,8 +1,14 @@
 
+##linux general commands
+show date				date
+show calendar			cal
+calculator				bc
+max thread number		ulimit -u
 
 ##tar unzip
-bz2 - tar -jxvf 
+extract bz2				tar -jxvf 
+extract gz				tar -zxvf 
 
-gz 	- tar -zxvf 
 
+##create linkage
 ln -s <target> <source>
