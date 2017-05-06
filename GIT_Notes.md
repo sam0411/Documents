@@ -1,3 +1,12 @@
+##Git Reference
+http://www.ruanyifeng.com/blog/2014/06/git_remote.html
+http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
+http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+http://www.ruanyifeng.com/blog/2015/08/git-use-process.html
+http://www.cnblogs.com/cnblogsfans/p/5075073.html
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
+
+
 # Git Commands
 
 ## git initialize & push
@@ -10,6 +19,7 @@ git push -u origin master
 ## git setup
 git config --global user.name "sam0411"
 git config --global user.email "sam0411@yeah.net"
+git config --global push.default matching
 git config --global color.ui true
 git init
 
