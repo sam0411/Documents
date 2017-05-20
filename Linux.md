@@ -110,3 +110,8 @@ $ df -h                                                      显示磁盘的使�
 $ cal -3                                                     显示前一个月，当前月以及下一个月的月历
 $ cal 10 1988                                                显示指定月，年的月历
 $ date --date '1970-01-01 UTC 1427888888 seconds'            把一相对于1970-01-01 00:00的秒数转换成时间
+
+## Clean up /boot old version Linux images
+$ uname -a  												Find current image
+$ sudo apt-get remove linux-image-							/tab -> to list all images
+$ sudo apt-get remove linux-image-4.4.0-77-generic 			Remove to clean up /boot
