@@ -88,6 +88,11 @@ $ yum clean [package]                     清除缓存目录（/var/cache/yum）
 $ yum clean headers                       删除所有头文件
 $ yum clean all                           删除所有缓存的包和头文件
 
+##apt工具:
+$ apt-get update
+$ apt-get upgrade
+$ apt autoremove
+
 ##网络:
 $ ifconfig eth0                                              显示一个以太网卡的配置
 $ ifconfig eth0 192.168.1.1 netmask 255.255.255.0            配置网卡的IP地址
