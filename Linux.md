@@ -76,22 +76,12 @@ $ zip -r file1.zip file1 dir1              把文件和目录压缩成一个zip�
 $ unzip file1.zip                          解压一个zip格式的压缩包到当前目录
 $ unzip test.zip -d /tmp/                  解压一个zip格式的压缩包到 /tmp 目录
 
-##yum工具:
-$ yum -y install [package]                下载并安装一个rpm包
-$ yum localinstall [package.rpm]          安装一个rpm包，使用你自己的软件仓库解决所有依赖关系
-$ yum -y update                           更新当前系统中安装的所有rpm包
-$ yum update [package]                    更新一个rpm包
-$ yum remove [package]                    删除一个rpm包
-$ yum list                                列出当前系统中安装的所有包
-$ yum search [package]                    在rpm仓库中搜寻软件包
-$ yum clean [package]                     清除缓存目录（/var/cache/yum）下的软件包
-$ yum clean headers                       删除所有头文件
-$ yum clean all                           删除所有缓存的包和头文件
 
 ##apt工具:
 $ apt-get update
 $ apt-get upgrade
 $ apt autoremove
+$ apt remove APPName
 
 ##网络:
 $ ifconfig eth0                                              显示一个以太网卡的配置
@@ -103,6 +93,7 @@ $ iwlist scan                                                显示无线网络
 $ ip addr show                                               显示网卡的IP地址
 
 ##其他:
+$ env														 List all environment variables.
 $ su -                                                       切换到root权限（与su有区别）
 $ shutdown -h now                                            关机
 $ shutdown -r now                                            重启
