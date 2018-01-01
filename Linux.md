@@ -1,9 +1,9 @@
 
 ##linux general commands
-show date				date
-show calendar			cal
-calculator				bc
-max thread number		ulimit -u
+$ date							show date				
+$ cal 							show calendar			
+$ bc 							calculator				
+$ ulimit -u 					max thread number		
 
 
 ##create linkage
