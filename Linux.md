@@ -7,7 +7,7 @@ max thread number		ulimit -u
 
 
 ##create linkage
-ln -s <target> <source>
+$ ln -s <target> <source>
 
 ##文件和目录:
 $ cd /home                        进入 '/home' 目录
