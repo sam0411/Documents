@@ -1,4 +1,4 @@
-##Git Reference
+## Git Reference
 http://www.ruanyifeng.com/blog/2014/06/git_remote.html
 http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
@@ -7,7 +7,7 @@ http://www.cnblogs.com/cnblogsfans/p/5075073.html
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
 
 
-# Git Commands
+## Git Commands
 
 ## git initialize & push
 git init

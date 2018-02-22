@@ -1,15 +1,15 @@
 
-##linux general commands
+## linux general commands
 $ date							show date				
 $ cal 							show calendar			
 $ bc 							calculator				
 $ ulimit -u 					max thread number		
 
 
-##create linkage
+## create linkage
 $ ln -s <target> <source>
 
-##文件和目录:
+## 文件和目录:
 $ cd /home                        进入 '/home' 目录
 $ cd ..                           返回上一级目录
 $ cd ../..                        返回上两级目录
@@ -29,14 +29,14 @@ $ mv dir1 dir2                    移动/重命名一个目录
 $ rm -f file1                     删除 'file1'
 $ rm -rf dir1                     删除 'dir1' 目录及其子目录内容
 
-##查看文件内容:
+## 查看文件内容:
 $ cat file1                       从第一个字节开始正向查看文件的内容
 $ head -2 file1                   查看一个文件的前两行
 $ more file1                      查看一个长文件的内容
 $ tac file1                       从最后一行开始反向查看一个文件的内容
 $ tail -3 file1                   查看一个文件的最后三行
 
-##文本处理:
+## 文本处理:
 $ grep str /tmp/test              在文件 '/tmp/test' 中查找 "str"
 $ grep ^str /tmp/test             在文件 '/tmp/test' 中查找以 "str" 开始的行
 $ grep [0-9] /tmp/test            查找 '/tmp/test' 文件中所有包含数字的行
@@ -44,7 +44,7 @@ $ grep str -r /tmp/*              在目录 '/tmp' 及其子目录中查找 "str
 $ diff file1 file2                找出两个文件的不同处
 $ sdiff file1 file2               以对比的方式显示两个文件的不同
 
-##查找:
+## 查找:
 $ find / -name file1                                     从 '/' 开始进入根文件系统查找文件和目录
 $ find / -user user1                                     查找属于用户 'user1' 的文件和目录
 $ find /home/user1 -name \*.bin                          在目录 '/ home/user1' 中查找以 '.bin' 结尾的文件
@@ -55,7 +55,7 @@ $ find -name '*.[ch]' | xargs grep -E 'expr'             在当前目录及其�
 $ find -type f -print0 | xargs -r0 grep -F 'expr'        在当前目录及其子目录的常规文件中查找 'expr'
 $ find -maxdepth 1 -type f | xargs grep -F 'expr'        在当前目录中查找 'expr'
 
-##压缩和解压:
+## 压缩和解压:
 $ bzip2 file1                              压缩 file1
 $ bunzip2 file1.bz2                        解压 file1.bz2
 $ gzip file1                               压缩 file1

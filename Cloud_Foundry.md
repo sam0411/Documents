@@ -1,4 +1,4 @@
-##Installation Ubuntu
+## Installation Ubuntu
 wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
 echo "deb http://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
 sudo apt-get update
@@ -6,7 +6,7 @@ sudo apt-get install cf-cli
 
 
 
-##Pivotal Cloud Foundry
+## Pivotal Cloud Foundry
 cf -help
 
 cf login -a https://api.run.pivotal.io
@@ -31,7 +31,7 @@ cf scale cf-spring -k 512M
 
 cf app cf-spring
 
-##Reference
+## Reference
 https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/next-steps
 
 http://cf-spring-preracing-yellowbird.cfapps.io/
