@@ -12,3 +12,6 @@ npm install webpack-cli -g
 npm install webpack-cli --save-dev
 
 npm install webpack-dev-server --save-dev
+
+[//]: # 'run package.json -> script -> server'
+npm run server
