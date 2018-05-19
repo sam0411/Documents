@@ -28,6 +28,9 @@ $ mkdir -p /tmp/dir1/dir2         创建一个目录树
 $ mv dir1 dir2                    移动/重命名一个目录
 $ rm -f file1                     删除 'file1'
 $ rm -rf dir1                     删除 'dir1' 目录及其子目录内容
+$ touch file.txt				  Create a new file  
+
+
 
 ## 查看文件内容:
 $ cat file1                       从第一个字节开始正向查看文件的内容
