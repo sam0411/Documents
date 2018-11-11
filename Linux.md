@@ -114,3 +114,17 @@ $ date --date '1970-01-01 UTC 1427888888 seconds'            把一相对于1970
 $ uname -a  												Find current image
 $ sudo apt-get remove linux-image-							/tab -> to list all images
 $ sudo apt-get remove linux-image-4.4.0-77-generic 			Remove to clean up /boot
+
+
+## dig
+$ dig  
+
+$ dig www.fidelity.com.hk  
+$ dig www.fidelity.com.hk A  
+$ dig www.fidelity.com.hk CNAME  
+$ dig www.fidelity.com.hk MX  
+$ dig www.fidelity.com.hk TXT  
+
+$ dig www.fidelity.com.hk +short
+
+$ dig www.fidelity.com.hk +trace

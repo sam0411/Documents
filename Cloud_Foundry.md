@@ -20,9 +20,9 @@ cf marketplace -s elephantsql
 cf create-service elephantsql turtle cf-spring-db
 cf bind-service cf-spring cf-spring-db
 
-
+dfd
 cf restart cf-spring
-
+dfdf2=4p12p
 cf services
 
 cf scale cf-spring -i 2
