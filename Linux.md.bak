@@ -1,8 +1,9 @@
+
 ## linux general commands
-$ date							show date
-$ cal 							show calendar
-$ bc 							calculator
-$ ulimit -u 					max thread number
+$ date							show date				
+$ cal 							show calendar			
+$ bc 							calculator				
+$ ulimit -u 					max thread number		
 
 
 ## create linkage
@@ -27,7 +28,7 @@ $ mkdir -p /tmp/dir1/dir2         创建一个目录树
 $ mv dir1 dir2                    移动/重命名一个目录
 $ rm -f file1                     删除 'file1'
 $ rm -rf dir1                     删除 'dir1' 目录及其子目录内容
-$ touch file.txt				  Create a new file
+$ touch file.txt				  Create a new file  
 
 
 
@@ -116,20 +117,14 @@ $ sudo apt-get remove linux-image-4.4.0-77-generic 			Remove to clean up /boot
 
 
 ## dig
-$ dig 
+$ dig  
 
-$ dig www.fidelity.com.hk 
-$ dig www.fidelity.com.hk A 
-$ dig www.fidelity.com.hk CNAME 
-$ dig www.fidelity.com.hk MX 
-$ dig www.fidelity.com.hk TXT 
+$ dig www.fidelity.com.hk  
+$ dig www.fidelity.com.hk A  
+$ dig www.fidelity.com.hk CNAME  
+$ dig www.fidelity.com.hk MX  
+$ dig www.fidelity.com.hk TXT  
 
 $ dig www.fidelity.com.hk +short
 
 $ dig www.fidelity.com.hk +trace
-
-
-## Sync system date time
-$ sudo apt-get install ntpdate
-$ sudo ntpdate time.windows.com
-$ sudo hwclock --localtime --systohc 1
