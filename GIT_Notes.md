@@ -25,7 +25,7 @@ git config --global user.email "sam0411@yeah.net"
 git config --global push.default matching
 git config --global color.ui true
 git init
-
+git config core.ignorecase false
 
 ## ssh key
 ssh-keygen -t rsa -C "sam0411@yeah.net"
