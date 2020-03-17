@@ -34,6 +34,7 @@ ssh git@github.com
 
 ## add, commit, push | rm | checkout
 git add <file name to add to git>
+git add -A <file name to add to git>
 git rm <file name to remove to git>
 git commit -m "commit comments"
 git checkout -- <file name to revert>
