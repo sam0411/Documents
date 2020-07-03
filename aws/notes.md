@@ -1,4 +1,4 @@
-5-23
+5-25
 
 IAM
 Root -> IAM User, Group, Permission
@@ -49,4 +49,14 @@ VPC
 				10.0.0.3 reserved for future
 				10.0.0.255 last IP
 
+	by default, each region has default VPC, each AZ has 1 subnet
+
+	Internet Gateway
+		one IGW per VPC
+
+	ENI (Elastic network interface), security group bulit on it (virtual firewall)
+
+	up to 5 security group to EC2
+
+	stateful: inbound permitted, outbound auto permitted (for same destination)
 
